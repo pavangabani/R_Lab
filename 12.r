@@ -1,0 +1,9 @@
+factorial<-function(a){
+    fac=1
+    while(a){
+        fac=a*fac
+        a=a-1
+    }
+    print(fac)
+}
+factorial(3)

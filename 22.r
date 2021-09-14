@@ -1,0 +1,6 @@
+setwd("E:/Desktop/pavan/5th sem/3CP05")
+data <- read.csv("project.csv")
+print(data)
+print(is.data.frame(data))
+print(ncol(data))
+print(nrow(data))
